@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b99ec6bee4b74b14b5e04e65b1ce1176" Name="Diagram1">
+        <EntityTypeShape EntityType="hsmdbModel.Academy" Width="1.5" PointX="3.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.Attendance" Width="1.5" PointX="8.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.ChoirParts" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.ChoirSplits" Width="1.5" PointX="3.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.CodeAlgorithm" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.Dues" Width="1.5" PointX="9" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.Events" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.FriendshipGroups" Width="1.5" PointX="3.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.Members" Width="1.5" PointX="6" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.MonthlyDues" Width="1.5" PointX="13.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.NextOfKins" Width="1.5" PointX="8.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.Occupations" Width="1.5" PointX="3.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.Posts" Width="1.5" PointX="3.75" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.States" Width="1.5" PointX="3.75" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.Transactions" Width="1.5" PointX="11.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hsmdbModel.UserProfile" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="hsmdbModel.FK_Members_Academy" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_Attendance_Events" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_Attendance_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_CodeAlgorithm_ChoirParts" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_Members_ChoirParts" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_Members_Splits" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_Transactions_Dues" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_Members_Clubs" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_Members_Occupations" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_Members_Posts" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_Members_States" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_NextOfKins_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_Transactions_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="hsmdbModel.FK_MonthlyDues_Transactions" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
